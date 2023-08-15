@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main form div{
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  width: 250px;
+  background-color: aqua;
+  padding: 20px;
+  
+}
+
+.main form div input{
+  padding: 5px;
+}
+
+.config{
+  position: absolute;
+  left: 50px;
+}
+
+.config form, .config  label{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  background-color: rgb(252, 252, 252);
+  row-gap: 3px;
+  font-size: 12px;
+}
+
+.config form div{
+  padding: 0;
+}
+
+.config form input{
+  font-size: 12px;
+  padding: 0;
+}
