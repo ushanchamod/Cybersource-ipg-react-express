@@ -29,8 +29,8 @@ app.post('/api/submit-payment', async (req, res) => {
     req.body.data.unsigned_field_names = '';
     req.body.data.signed_date_time = moment().utc().format("YYYY-MM-DDTHH:mm:ss[Z]");
     req.body.data.locale = 'en';
-    req.body.data.transaction_type = 'authorization';
-    req.body.data.currency = 'LKR';
+    req.body.data.transaction_type = 'sale';
+    req.body.data.currency = 'USD';
 
     // need to add as user
     req.body.data.bill_to_address_city = 'Polonnaruwa';
