@@ -22,8 +22,8 @@ app.post('/api/submit-payment', async (req, res) => {
   const {data} = req.body;
 
   if(data){
-    req.body.data.access_key = '26d2d2d38a123aac9f8d6076b99febea';
-    req.body.data.profile_id = '305FCC81-2209-4726-AC56-9BD8444EFD99';
+    req.body.data.access_key = '#############################';
+    req.body.data.profile_id = '########################';
     req.body.data.transaction_uuid = v4();
     req.body.data.signed_field_names = 'access_key,profile_id,transaction_uuid,signed_field_names,unsigned_field_names,signed_date_time,locale,transaction_type,reference_number,amount,currency,bill_to_address_city,bill_to_address_country,bill_to_address_line1,bill_to_address_postal_code,bill_to_email,bill_to_forename,bill_to_surname';
     req.body.data.unsigned_field_names = '';
