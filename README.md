@@ -1,1 +1,1 @@
-﻿# cybersource IPG integration (react, expres)
+﻿# Cybersource IPG integration (react, expres)
